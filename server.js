@@ -6,7 +6,7 @@ const app = express();
 dotenv.config();
 
 app.get("/", (req, res) => {
-  res.send( "<h1>Hellow this is node js </h1>"
+  res.send( "<h1>Hellow this is node js Deployed successfully</h1>"
   );
 });
 const PORT = process.env.PORT ;
